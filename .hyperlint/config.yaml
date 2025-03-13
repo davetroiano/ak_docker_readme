@@ -1,0 +1,28 @@
+automation:
+  custom_style_guide:
+    enabled: true
+    path_to_style_guide_dir: null
+  enabled: true
+  vale_style_guide:
+    enabled: true
+content_dir: /
+reviewer:
+  custom_comment: null
+  custom_style_guide:
+    check_status_upon_review_failure: failure
+    enabled: true
+    path_to_style_guide_dir: .hyperlint/style_guide
+  enabled: true
+  external_link_validation:
+    check_status_upon_review_failure: failure
+    enabled: true
+    ignore_file_keywords: []
+    ignore_url_keywords: []
+  ignore_on_labels: []
+  limit_num_comments: 10
+  limit_num_reviews: null
+  summarize_pull_request:
+    enabled: true
+  vale_style_guide:
+    check_status_upon_review_failure: failure
+    enabled: true
