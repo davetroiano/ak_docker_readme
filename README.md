@@ -297,3 +297,6 @@ docker compose down
 * [Books and papers](https://kafka.apache.org/books-and-papers) on Kafka and streaming in general
 * [Slides and recordings of conference talks on streaming](https://www.kafka-summit.org/past-events)
 
+## My new section
+
+Interested in learning more? Check [this](https://developer.confluent.io) out
