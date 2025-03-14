@@ -299,4 +299,4 @@ docker compose down
 
 ## My new scetion
 
-Interested in learning more? Check [this](https://developer.confluent.io out
+Interested in learning more? Check [this](https://developer.confluent.io) out
