@@ -84,7 +84,7 @@ You can run the example backing this tutorial in one of two ways: locally with t
   INSERT INTO movie_sales (title, release_year, total_sales) VALUES ('Jurassic World Dominion', 2022, 1001978080);
   ```
 
-  Finally, run the aggregating min / max query. Note that we first tell ksqlDB to consume from the beginning of the stream, and we also configure the query to use caching so that we only get a single output record per key ().
+  Finally, run the aggregating min / max query. Note that we first tell ksqlDB to consume from the beginning of the stream, and we also configure the query to use caching so that we only get a single output record per key.
 
   ```sql
   SET 'auto.offset.reset'='earliest';

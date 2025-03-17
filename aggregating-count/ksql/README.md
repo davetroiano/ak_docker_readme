@@ -40,7 +40,7 @@ You can run the example backing this tutorial in one of two ways: locally with t
   ### Prerequisites
 
   * Docker running via [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/install/)
-  * [Docker Compose](https://docs.docker.com/compose/install/). Ensure that the command `docker compose version` succeeds.
+  * [Docker Compose](https://docs.docker.com/compose/install/). Ensure that the command `docker compose version` runs successfully.
 
   ### Run the commands
 
@@ -169,7 +169,7 @@ You can run the example backing this tutorial in one of two ways: locally with t
   and then click the `ksqldb-tutorial` environment tile. Click the `ksqldb-tutorial` Kafka cluster tile, and then
   select `ksqlDB` in the lefthand navigation.
 
-  The cluster may take a few minutes to be provisioned. Once its status is `Up`, click the cluster name and scroll down to the editor.
+  The cluster may take a few minutes to be provisioned. Once the cluster status is `Up`, click the cluster name and scroll down to the editor.
 
   In the query properties section at the bottom, change the value for `auto.offset.reset` to `Earliest` so that ksqlDB 
   will consume from the beginning of the stream we create. Then click `Add another field` and add a property

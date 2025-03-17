@@ -6,7 +6,7 @@
 An aggregation in Kafka Streams is a stateful operation used to perform a "clustering" or "grouping" of values with
 the same key.  An aggregation in Kafka Streams may return a different type than the input value.  In our example here
 the input value is a `double` but the result is a `CountAndSum` object used later to determine a running average.
-You can also use windowing with aggregations to get discrete results per segments of time.
+You can also use windowing with aggregations to get discrete results for segments of time.
 
 ``` java annotate
  builder.stream(INPUT_TOPIC, Consumed.with(Serdes.String(), movieRatingSerde))

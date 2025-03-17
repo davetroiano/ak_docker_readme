@@ -94,7 +94,7 @@ against Flink and Kafka running in Docker, or with Confluent Cloud.
   docker exec -it flink-sql-client sql-client.sh
   ```
 
-  Finally, run following SQL statements to create the `movie_sales` table backed by Kafka running in Docker, populate it with
+  Finally, run the following SQL statements to create the `movie_sales` table backed by Kafka running in Docker, populate it with
   test data, and run the aggregating min/max query.
 
   ```sql
@@ -172,7 +172,7 @@ against Flink and Kafka running in Docker, or with Confluent Cloud.
 
   Select the default catalog (Confluent Cloud environment) and database (Kafka cluster) to use with the dropdowns at the top right.
 
-  Finally, run following SQL statements to create the `movie_sales` table, populate it with test data, and run the aggregating min/max query.
+  Finally, run the following SQL statements to create the `movie_sales` table, populate it with test data, and run the aggregating min/max query.
 
   ```sql
   CREATE TABLE movie_sales (
