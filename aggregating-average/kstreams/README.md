@@ -30,7 +30,7 @@ Let's review the key points in this example
          map((key, value) -> KeyValue.pair(value.id(), value.rating())
 ```  
 
-Aggregations must group records by key.  Since the stream source topic doesn't define any, the code has a `map` operation which creates new key-value pairs setting the key of the stream to the `MovieRating.id` field.
+Aggregations must group records by key. Since the stream source topic doesn't define any, the code has a `map` operation which creates new key-value pairs setting the key of the stream to the `MovieRating.id` field.
 
 ``` java
         groupByKey(Grouped.with(Serdes.String(), Serdes.Double()))
