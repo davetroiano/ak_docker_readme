@@ -71,7 +71,7 @@ against Flink and Kafka running in Docker, or with Confluent Cloud.
   ### Prerequisites
 
   * Docker running via [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/install/)
-  * [Docker Compose](https://docs.docker.com/compose/install/). Ensure that the command `docker compose version` succeeds.
+  * [Docker Compose](https://docs.docker.com/compose/install/). Ensure that the command `docker compose version` runs successfully.
 
   ### Run the commands
 
