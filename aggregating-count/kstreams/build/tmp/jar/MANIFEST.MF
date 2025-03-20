@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Class-Path: common.jar slf4j-simple-2.0.7.jar kafka-streams-3.6.0.jar ka
+ fka-streams-avro-serde-7.5.1.jar kafka-avro-serializer-7.5.1.jar kafka-
+ schema-serializer-7.5.1.jar kafka-schema-registry-client-7.5.1.jar kafk
+ a-clients-3.6.0.jar config-1.4.2.jar avro-1.11.0.jar common-utils-7.5.1
+ .jar slf4j-api-2.0.7.jar jackson-core-2.14.2.jar jackson-databind-2.14.
+ 2.jar jackson-annotations-2.14.2.jar rocksdbjni-7.9.2.jar zstd-jni-1.5.
+ 5-1.jar lz4-java-1.8.0.jar snappy-java-1.1.10.4.jar commons-compress-1.
+ 21.jar guava-32.0.1-jre.jar logredactor-1.0.12.jar snakeyaml-2.0.jar sw
+ agger-annotations-2.1.10.jar failureaccess-1.0.1.jar listenablefuture-9
+ 999.0-empty-to-avoid-conflict-with-guava.jar jsr305-3.0.2.jar checker-q
+ ual-3.33.0.jar error_prone_annotations-2.18.0.jar j2objc-annotations-2.
+ 8.jar re2j-1.6.jar logredactor-metrics-1.0.12.jar minimal-json-0.9.5.ja
+ r
+
