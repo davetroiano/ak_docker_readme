@@ -99,7 +99,7 @@ against Flink and Kafka running in Docker, or with Confluent Cloud.
   docker exec -it flink-sql-client sql-client.sh
   ```
 
-  Finally, run following SQL statements to create the `clicks` table backed by Kafka running in Docker, populate it with
+  Finally, run the following SQL statements to create the `clicks` table backed by Kafka running in Docker, populate it with
   test data, and run the deduplication query.
 
   ```sql
