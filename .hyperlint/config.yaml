@@ -19,7 +19,7 @@ reviewer:
     ignore_file_keywords: []
     ignore_url_keywords: []
   ignore_on_labels: []
-  limit_num_comments: 10
+  limit_num_comments: 20
   limit_num_reviews: null
   summarize_pull_request:
     enabled: true
